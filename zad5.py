@@ -1,5 +1,5 @@
 import requests
-
+################
 class EmissisionsApi:
     def __init__(self, method, url, endpoint, headers, path_param = None, path = None, params = None):
         self.__method = method
